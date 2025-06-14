@@ -10,7 +10,7 @@ st.markdown("Enter the name of a supplier to fetch a summary of their business p
 query = st.text_input("Enter Supplier Name")
 
 if st.button("Search") and query:
-    api_key = st.secrets["SERP_API_KEY"]
+    api_key = st.secrets["454e94cadde871df054cb9492b4cd2d4f23ecb4b5078730896e29605f1198562"]
     params = {
         "engine": "google",
         "q": query,
